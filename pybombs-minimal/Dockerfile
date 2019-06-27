@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-# originally from https://github.com/gnuradio/pybombs-docker
+LABEL maintainer=martin@gnuradio.org
 
 ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update

@@ -1,5 +1,5 @@
 FROM pybombs/pybombs-minimal:2.3.3
-# originally from https://github.com/gnuradio/pybombs-docker
+LABEL maintainer=martin@gnuradio.org
 
 # Create a prefix in /pybombs
 RUN pybombs prefix init /pybombs -a default
