@@ -1,5 +1,5 @@
 FROM pybombs/pybombs-prefix:2.3.3
-LABEL maintainer=martin@gnuradio.org
+# originally from https://github.com/gnuradio/pybombs-docker
 
 # This allows setting the makewidth temporarily to a higher value
 ARG makewidth=2
